@@ -29,7 +29,7 @@ body {
 .pic{
     width: 100%;
     height: 100%;
-    background-image: url(../images/mountain.jpg);
+    background-image: url(..mountain.jpg);
     background-size: cover;
     transition: all .5s ease;
     position: relative;
