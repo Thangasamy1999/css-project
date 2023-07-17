@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background-color: #535378;
+    padding: 30px;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #2d2b2b;
+    display: block;
+    background-color: #5eea5e;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    margin: 10px;
+    transform: rotate(8deg);
+    transition: transform 0.2s linear;
+    border-radius: 4px;
+   
+}
+
+h2 {
+    font-size: 16px;
+    color: rgb(241, 78, 23);
+}
+
+p {
+    font-size: 14px;
+    color: rgb(81, 79, 79);
+}
+
+ul li:nth-child(2n) a {
+    position: relative;
+    top: 20px;
+    left: 5px;
+    transform: rotate(-8deg);
+
+    background-color: rgb(244, 244, 74);
+}
+
+ul li:nth-child(1) a {
+    position: relative;
+    top: 20px;
+    left: 5px;
+    transform: rotate(10deg);
+
+    background-color: rgba(241, 191, 116, 0.878);
+}
+
+ul li:nth-child(8) a {
+    position: relative;
+    top: 20px;
+    left: 5px;
+    transform: rotate(8deg);
+
+    background-color: rgb(99, 47, 213);
+}
+
+ul li:nth-child(5) a {
+    position: relative;
+    top: 20px;
+    left: 5px;
+    transform: rotate(-8deg);
+
+    background-color: rgb(45, 244, 151);
+}
+
+ul li:nth-child(6) a {
+    position: relative;
+    top: 20px;
+    left: 5px;
+    transform: rotate(-10deg);
+
+    background-color: rgb(244, 244, 74);
+}
+
+ul li a:hover,
+ul li a:focus {
+    transform: scale(1.25);
+    z-index: 99;
+    box-shadow: rgba(68, 192, 226, 0.363) 0px 50px 100px -20px;
+    position: relative;
+}
+a span {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    
+    background-image: url(../images/Close.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
