@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif, arial, helvetica;
+   
+}
+.box{
+    
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/4.jpg');
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 70px;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+}
+.logo span{
+   
+    color: orangered;
+    font-family: 'Lobster', cursive;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: blue;
+    padding: 8px 15px;
+    border-radius: 30px;
+    
+    color: black;
+    transition: .3s;
+}
+nav button{
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    background: orangered;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+nav button:hover{
+    background-color: blue;
+    transform: scale(1.1);
+    border: 1px solid white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.banner-text{
+    color: white;
+    
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    transition: 0.5s;
+}
+
+.banner-text h1{
+    font-size: 45px;
+    text-transform: uppercase;
+
+}
+.banner-text span{
+    color: orangered;
+    font-family: 'lobster', cursive;
+}
+.banner-text p{
+    font-size: 20px;
+}
