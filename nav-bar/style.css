@@ -12,7 +12,7 @@ body {
     
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/4.jpg');
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('..4.jpg');
 }
 nav{
     display: flex;
