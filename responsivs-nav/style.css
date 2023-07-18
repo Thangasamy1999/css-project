@@ -19,7 +19,7 @@ nav{
 section{
     width: 100%;
     height: calc(100vh - 70px);
-    background:linear-gradient(rgba(45, 52, 54,0.5),rgba(45, 52, 54,0.5)), url(../image/uwp3548497.jpeg);
+    background:linear-gradient(rgba(45, 52, 54,0.5),rgba(45, 52, 54,0.5)), url(..uwp3548497.jpeg);
     background-size: cover;
     display: flex;
     justify-content: center;
